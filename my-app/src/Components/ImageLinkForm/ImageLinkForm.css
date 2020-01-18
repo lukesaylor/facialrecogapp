@@ -2,10 +2,11 @@
    width: 700px;
    background-color:rgb(119, 25, 173);
 background-image:
-radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
-radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
-radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
-radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
-radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+radial-gradient(circle at 100% 150%, black 24%, rgb(119, 25, 173) 24%, rgb(119, 25, 173) 28%, black 28%, black 36%, rgb(119, 25, 173) 36%, rgb(119, 25, 173) 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, rgb(119, 25, 173) 24%, rgb(119, 25, 173) 28%, black 28%, black 36%, rgb(119, 25, 173) 36%, rgb(119, 25, 173) 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, rgb(119, 25, 173) 10%, black 10%, black 23%, rgb(119, 25, 173) 23%, rgb(119, 25, 173) 30%, black 30%, black 43%, rgb(119, 25, 173) 43%, rgb(119, 25, 173) 50%, black 50%, black 63%, rgb(119, 25, 173) 63%, rgb(119, 25, 173) 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, rgb(119, 25, 173) 5%, black 5%, black 15%, rgb(119, 25, 173) 15%, rgb(119, 25, 173) 20%, black 20%, black 29%, rgb(119, 25, 173) 29%, rgb(119, 25, 173) 34%, black 34%, black 44%, rgb(119, 25, 173) 44%, rgb(119, 25, 173) 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, rgb(119, 25, 173) 5%, black 5%, black 15%, rgb(119, 25, 173) 15%, rgb(119, 25, 173) 20%, black 20%, black 29%, rgb(119, 25, 173) 29%, rgb(119, 25, 173) 34%, black 34%, black 44%, rgb(119, 25, 173) 44%, rgb(119, 25, 173) 49%, transparent 49%, transparent);
 background-size: 100px 50px;
+
 }
