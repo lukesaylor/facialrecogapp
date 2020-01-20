@@ -8,5 +8,5 @@ radial-gradient(circle at 50%  100%, rgb(119, 25, 173) 10%, black 10%, black 23%
 radial-gradient(circle at 100% 50%, rgb(119, 25, 173) 5%, black 5%, black 15%, rgb(119, 25, 173) 15%, rgb(119, 25, 173) 20%, black 20%, black 29%, rgb(119, 25, 173) 29%, rgb(119, 25, 173) 34%, black 34%, black 44%, rgb(119, 25, 173) 44%, rgb(119, 25, 173) 49%, transparent 49%, transparent),
 radial-gradient(circle at 0    50%, rgb(119, 25, 173) 5%, black 5%, black 15%, rgb(119, 25, 173) 15%, rgb(119, 25, 173) 20%, black 20%, black 29%, rgb(119, 25, 173) 29%, rgb(119, 25, 173) 34%, black 34%, black 44%, rgb(119, 25, 173) 44%, rgb(119, 25, 173) 49%, transparent 49%, transparent);
 background-size: 100px 50px;
-
+   border: cornflowerblue, 10px;
 }
