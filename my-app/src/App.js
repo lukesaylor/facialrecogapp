@@ -30,9 +30,13 @@ class App extends Component {
     super();
     this.state = {
       input: '',
-      imageUrl: ''
+      imageUrl: '',
+     
     }
   }
+
+calculate  
+
 onInputChange = (event) => {
   this.setState({input: event.target.value})
 }
