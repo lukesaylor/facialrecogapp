@@ -53,7 +53,6 @@ calculateFaceLocation = (data) => {
 }
 
 displayFaceBox = (box) => {
-  console.log(box);
   this.setState({box: box});
 }
 
@@ -83,11 +82,12 @@ onRouteChange = (route) => {
     
 
   render () {
+    const { isSignedIn, imageUrl, route, box} =this.state;
     return (
       <div className="App">
         <Particles className='particles'
                 params={particleoptions} />
-        <Navigation  isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange} />
+        <Navigation  isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         {this.state.route === 'home'
           ? <div>
               <Logo />
@@ -95,10 +95,10 @@ onRouteChange = (route) => {
               <ImageLinkForm 
                 onInputChange={this.onInputChange} 
                 onButtonSubmit={this.onButtonSubmit} />
-              <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl}/>
+              <FaceRecognition box={box} imageUrl={imageUrl}/>
             </div>
           : (
-            this.state.route === 'SignIn'
+            route === 'SignIn'
           ? <SignIn onRouteChange={this.onRouteChange}/>
           : <Register onRouteChange={this.onRouteChange}/>
           )
